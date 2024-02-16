@@ -14,7 +14,7 @@
         font-weight: 400;
         font-style: normal;
       }
-body{
+html{
     width: 1600px;
     margin: 0px;
     padding: 0px;
@@ -27,11 +27,10 @@ body{
 /* Style for Hero Section */
 header{
     position: relative;
-    margin: 50px 230px;
+    margin: 50px auto;
     padding: 0;
     width: 1320px;
     height: 600px;
-     
     border-radius: 16px;
     /* background-color: black; */
     /* background-image: url("../image/Banner-Image.png"); */
@@ -45,7 +44,7 @@ header{
     background-color: black;
     position: absolute;
     border-radius: 16px;
-    opacity: 0.3;
+    opacity: 0.5;
 }
 .heroContet{
     position: absolute;
@@ -85,4 +84,39 @@ header{
     height: 200px;
     margin-top: 0px;
    
+}
+
+/* main section styles are form here */
+/* ------------------------------------- */
+/* 65% OFF section styles */
+.newYearOfferContainer{
+    width: 800px;
+   margin: 100px auto;
+   
+}
+.newYearOfferContainer h2{
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.newYearOfferContainer p{
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+.newYearOfferContainer h4{
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0px;
 }
