@@ -378,6 +378,7 @@ header, .joinNowMidnightParty{
 /* Our Awsome portfolio */
 .awsomePorfolio{
     margin: 140px;
+    margin-bottom: 40px;
 }
 .awsomePorfolio h5{
     color: #F00;
@@ -404,4 +405,24 @@ header, .joinNowMidnightParty{
     font-weight: 400;
     line-height: 32px;
     width: 900px;
+    margin-bottom: 0px;
+}
+
+/* photo galarry section */
+.portfoioGallery{
+    width: 1320px;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: ; */
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0px;
+}
+.imageCard{
+    width: 425px;
+    height: 450px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    border-radius: 16px;
 }
