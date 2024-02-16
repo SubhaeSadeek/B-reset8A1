@@ -1,0 +1,79 @@
+
+
+.inter-fontstyle {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+    }
+
+    .merriweather-regular {
+        font-family: "Merriweather", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+body{
+    width: 1600px;
+    margin: 0px;
+    padding: 0px;
+}
+/* main{
+    width: 100%;
+    padding:0px
+} */
+
+/* Style for Hero Section */
+header{
+    position: relative;
+    margin: 50px 230px;
+    padding: 0;
+    width: 1320px;
+    height: 600px;
+     
+    border-radius: 16px;
+    background-color: black;
+    /* background-image: url("../image/Banner-Image.png"); */
+    /* background-repeat: none; */
+    /* background-size: contain; */
+
+}
+.heroContet{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+
+   }
+.heroContet p{
+    color: #FFF;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 250px;
+    height: 40px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.heroContet h2{
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+    width: 630px;
+    height: 200px;
+    margin-top: 0px;
+   
+}
