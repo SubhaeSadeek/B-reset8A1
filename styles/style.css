@@ -24,8 +24,8 @@ html{
     padding:0px
 } */
 
-/* Style for Hero Section */
-header{
+/* Style for Hero Section, Join Midnight Party Section */
+header, .joinNowMidnightParty{
     position: relative;
     margin: 50px auto;
     padding: 0;
@@ -41,10 +41,10 @@ header{
 .imageOverlayOpacity{
     width: 1320px;
     height: 600px;
-    background-color: black;
+    background: black;
     position: absolute;
     border-radius: 16px;
-    opacity: 0.5;
+    opacity: 0.4;
 }
 .heroContet{
     position: absolute;
@@ -119,4 +119,60 @@ header{
     font-weight: 700;
     line-height: normal;
     margin-top: 0px;
+}
+
+/* Join Midnight Party Section Style*/
+.joinNowContent{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    height: 80%;
+    }
+
+.joinNowContent h2{
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    /* padding-left: 0px; */
+    /* margin-left: 0px; */
+    margin-bottom: 0px;
+    width: 650px;
+    height: 170px;
+}
+.joinNowContent p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 700px;
+    height: 60px;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+.btn-primary{
+    position: absolute;
+    /* top: 95%; */
+    bottom: 10%;
+    left: 5%;
+    padding: 10px 20px;
+    background: none;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    
+   
+}
+.joinNowImage2024{
+    position: absolute;
+    bottom: 10%;
+    right: 13%;
+    width: 22%;
+    height: 73%;
 }
