@@ -176,7 +176,7 @@ header, .joinNowMidnightParty{
 /* Venue section style */
 .venueContainer{
     position: relative;
-    margin: 50px auto;
+    margin: 100px auto;
     padding: 0;
     width: 1320px;
     height: 600px;
@@ -227,3 +227,168 @@ header, .joinNowMidnightParty{
         background: rgb(226, 160, 205);
         color: #F00;
   }
+
+  /* new best offer section Style */
+  .newBestOfferContainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto;
+    width: 1320px;
+    height: 600px;
+    
+
+  }
+  .newBestOffer-1{
+    width: 422px;
+    height: 100%;
+    padding-left: 20px;
+    position: relative;
+    
+    }
+.newBestOffer-1Content{
+    position: absolute;
+    left: 3%;
+    top: 15%;
+
+}
+.newBestOffer-1Content h5{
+    color: #F00;
+    font-size: 24px;
+    font-family: inter;
+    font-weight: 500;
+    margin-bottom: 0px;
+    }
+.newBestOffer-1Content h3{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 0px;
+}
+.newBestOffer-1Content p{
+    width: 400px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+ .newBestOffer-2{
+    position: relative;
+    width: 422px;
+    height: 100%;
+    }
+.newBestOffer-2Content{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    }
+    .ellipsImg{
+    /* width: 75%; */
+    padding: 15px;
+    border: 15px solid red;
+    border-radius: 50%;
+    /* border-color: #F00; */
+}
+ .newBestOffer-3{
+    position: relative;
+    width: 422px;
+    height: 100%;
+    }
+ .newBestOffer-3Content{
+    position: absolute;
+    top: 15%;
+    left: 3;
+    padding: 50px;
+ }
+ .newBestOffer-3Content h2{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+ }
+ .newBestOffer-3Content p{
+    width: 275px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+ }
+ .bestOfferImg{
+    position: absolute;
+    left: 8%;
+    bottom: 1%;
+ }
+
+ /* Holiday sales Section */
+ .holidaySales{
+    width: 1100px;
+    height: 220px;
+    text-align: center;
+    margin: 50px auto;
+ }
+
+ .holidaySales h5{color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 0px;
+
+ }
+ .holidaySales > h1 span{
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+ }
+ .holidaySales > h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 20px;
+    
+ }
+ .holidaySales p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-top: 0px;
+    margin-top: 0px;
+ }
+/* Our Awsome portfolio */
+.awsomePorfolio h5{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.awsomePorfolio h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
