@@ -349,6 +349,32 @@ header, .joinNowMidnightParty{
     margin-top: 0px;
     margin-top: 0px;
  }
+ /* Holiday section image card */
+ .holidaySalesIMgGallery{
+    position: relative;
+    width: 1320px;
+    height: 680px;
+}
+.image-2{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    
+}
+.image-1{
+    position: absolute;
+    right: 0px;
+    bottom: 229px;
+}
+.image-3{
+    position: absolute;
+    right: 280px;
+    bottom: 275px;
+}
+ .image-4{
+    position: absolute;
+    z-index: 2;
+ }
 /* Our Awsome portfolio */
 .awsomePorfolio{
     margin: 140px;
