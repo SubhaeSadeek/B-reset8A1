@@ -5,15 +5,13 @@
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  font-variation-settings:
-    "slnt" 0;
+  font-variation-settings: "slnt" 0;
     }
 
     .merriweather-regular {
         font-family: "Merriweather", serif;
         font-weight: 400;
-        font-style: normal;
-      }
+    }
 html{
     width: 1600px;
     margin: 0px;
@@ -57,9 +55,7 @@ header, .joinNowMidnightParty{
     color: #FFF;
     text-align: center;
     font-size: 30px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
     width: 250px;
     height: 40px;
     margin-bottom: 0px;
@@ -73,7 +69,6 @@ header, .joinNowMidnightParty{
     color: #FFF;
     text-align: center;
     font-size: 72px;
-    font-style: normal;
     font-weight: 900;
     line-height: 95px;
     width: 630px;
@@ -94,26 +89,21 @@ header, .joinNowMidnightParty{
     color: #F00;
     text-align: center;
     font-size: 88px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    
 }
 .newYearOfferContainer p{
     color: #F00;
     text-align: center;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
     margin-bottom: 0px;
 }
 .newYearOfferContainer h4{
     color: #070211;
     text-align: center;
     font-size: 48px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     margin-top: 0px;
 }
 
@@ -128,12 +118,9 @@ header, .joinNowMidnightParty{
 .joinNowContent h2{
     color: #FFF;
     font-size: 64px;
-    font-style: normal;
     font-weight: 900;
     line-height: 88px;
     letter-spacing: 7.04px;
-    /* padding-left: 0px; */
-    /* margin-left: 0px; */
     margin-bottom: 0px;
     width: 650px;
     height: 170px;
@@ -142,7 +129,6 @@ header, .joinNowMidnightParty{
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
     width: 700px;
@@ -262,9 +248,7 @@ header, .joinNowMidnightParty{
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
     margin-top: 0px;
 }
 .newBestOffer-1Content p{
@@ -272,7 +256,6 @@ header, .joinNowMidnightParty{
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: 32px;
 }
@@ -308,16 +291,13 @@ header, .joinNowMidnightParty{
     color: #F00;
     font-family: Inter;
     font-size: 48px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
- }
+}
  .newBestOffer-3Content p{
     width: 275px;
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: 32px; 
  }
@@ -339,9 +319,7 @@ header, .joinNowMidnightParty{
  .holidaySales h5{color: #070211;
     font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
     margin-bottom: 0px;
 
  }
@@ -350,17 +328,14 @@ header, .joinNowMidnightParty{
     text-align: center;
     font-family: Merriweather;
     font-size: 72px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
+    
  }
  .holidaySales > h1{
     color: #070211;
     font-family: Merriweather;
     font-size: 72px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
     margin-bottom: 20px;
     
  }
@@ -369,7 +344,6 @@ header, .joinNowMidnightParty{
     text-align: center;
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 32px;
     margin-top: 0px;
@@ -384,17 +358,14 @@ header, .joinNowMidnightParty{
     color: #F00;
     font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
+    
 }
 .awsomePorfolio h2{
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
     text-transform: capitalize;
 }
 .awsomePorfolio p{
@@ -459,9 +430,8 @@ header, .joinNowMidnightParty{
     text-align: center;
     font-family: Merriweather;
     font-size: 48px;
-    font-style: normal;
     font-weight: 900;
-    line-height: normal;
+    
 }
 .subscribeNewsletterContent p{
     width: 900px;
@@ -469,7 +439,6 @@ header, .joinNowMidnightParty{
     text-align: center;
     font-family: Inter;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: 32px;
 }
@@ -479,7 +448,17 @@ header, .joinNowMidnightParty{
     bottom: 20%;
     right: 35%;
 }
-
+.subscribeMail{
+    padding: 15px 20px;
+    margin-right: 0px;
+    border: none;
+    
+}
+.subscribeBtn{
+    padding: 15px 25px;
+    margin-left: 0px;
+    border: none;
+}
 /* footer section */
 
 footer{
@@ -505,7 +484,6 @@ footer{
     color: #FFF;
     font-family: Inter;
     font-size: 22px;
-    font-style: normal;
     font-weight: 500;
     line-height: 40px;
     padding-bottom: 10px;
@@ -515,7 +493,6 @@ footer{
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
     line-height: 40px;
 }
@@ -539,7 +516,6 @@ footer{
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
+    
 }
