@@ -398,8 +398,8 @@ header, .joinNowMidnightParty{
     border-radius: 16px;
 }
 .imageCard:hover{
-    box-shadow: #070211;
-    border: 1px solid gray;
+    box-shadow: 4px 8px #cecdcf;
+    border: 2px solid gray;
 } 
 
 /* subscribe newslater section */
@@ -408,18 +408,19 @@ header, .joinNowMidnightParty{
    width: 1320px;
    height: 600px;
    margin: 100px auto;
-   background: #F00;
+   border-radius: 16px;
+   background: rgba(255, 0, 0, 0.05);
 }
 .subscribeNewsletterContainer img{
     position: absolute;
     top: 15%;
-    left: 50%;
+    left: 45%;
 }
 
 .subscribeNewsletterContent{
     position: absolute;
     top: 30%;
-    left: 25%;
+    left: 20%;
     width: 800px;
     margin: 50px auto;
 }
@@ -442,22 +443,51 @@ header, .joinNowMidnightParty{
     font-weight: 400;
     line-height: 32px;
 }
-
-.subscribeInput{
+.subscribeInputContainer{
+    margin: 10px 10px;
     position: absolute;
-    bottom: 20%;
-    right: 35%;
+    bottom: 10%;
+    right: 20%;
 }
-.subscribeMail{
-    padding: 15px 20px;
-    margin-right: 0px;
-    border: none;
+.subscribeInput{
+    position: relative;
     
 }
+.subscribeMail{
+    padding-left: 15px;
+    margin: 0px;
+    border: 0px;
+    border-top-left-radius: 36px;
+    border-bottom-left-radius: 36px;
+    border-top-right-radius: 36px;
+    border-bottom-right-radius: 36px;
+    width: 648px;
+    height: 72px;
+    
+}
+::placeholder{
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+
+}
 .subscribeBtn{
-    padding: 15px 25px;
-    margin-left: 0px;
-    border: none;
+    position: absolute;
+    right: 0%; 
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    border-top-right-radius: 36px;
+    border-bottom-right-radius: 36px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    width: 210px;
+    height: 72px;
 }
 /* footer section */
 
