@@ -355,6 +355,7 @@ header, .joinNowMidnightParty{
     position: relative;
     width: 1320px;
     height: 680px;
+    margin: 50px auto;
 }
 .image-2{
     position: absolute;
